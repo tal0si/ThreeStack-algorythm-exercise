@@ -9,13 +9,13 @@ Voici un exemple d'utilisation en pseudo code :
 ```java
 var threeStack = new ThreeStack();
 
-threeStack.push(1, "{name:"object1"}")
-threeStack.push(1, "{name:"object2"}")
-threeStack.push(2, "{name:"object3"}")
-threeStack.push(2, "{name:"object4"}")
-threeStack.push(2, "{name:"object5"}")
-threeStack.push(3, "{name:"object6"}")
-threeStack.push(3, "{name:"object7"}")
+threeStack.push(1, "{name:"object1"}");
+threeStack.push(1, "{name:"object2"}");
+threeStack.push(2, "{name:"object3"}");
+threeStack.push(2, "{name:"object4"}");
+threeStack.push(2, "{name:"object5"}");
+threeStack.push(3, "{name:"object6"}");
+threeStack.push(3, "{name:"object7"}");
 
 
 print(threeStack.pop(2)); // display {name:"object5"}
